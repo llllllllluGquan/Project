@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>library.lgq.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AllSeatInfo</servlet-name>
+    <servlet-class>library.lgq.servlet.AllSeatInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookSeat</servlet-name>
+    <servlet-class>library.lgq.servlet.BookSeat</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookSeatUpdateuser</servlet-name>
+    <servlet-class>library.lgq.servlet.BookSeatUpdateuser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IsBookSeat</servlet-name>
+    <servlet-class>library.lgq.servlet.IsBookSeat</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateUserBookseatState</servlet-name>
+    <servlet-class>library.lgq.servlet.UpdateUserBookseatState</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SeatInfoByCondition</servlet-name>
+    <servlet-class>library.lgq.servlet.SeatInfoByCondition</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserinfo</servlet-name>
+    <servlet-class>library.lgq.servlet.GetUserinfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Updateanthor_name</servlet-name>
+    <servlet-class>library.lgq.servlet.Updateanthor_name</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateAddress</servlet-name>
+    <servlet-class>library.lgq.servlet.UpdateAddress</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateSignature</servlet-name>
+    <servlet-class>library.lgq.servlet.UpdateSignature</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateSex</servlet-name>
+    <servlet-class>library.lgq.servlet.UpdateSex</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AllBookInfo</servlet-name>
+    <servlet-class>library.lgq.servlet.AllBookInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IsCanborrow</servlet-name>
+    <servlet-class>library.lgq.servlet.IsCanborrow</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateBorrowbookCount</servlet-name>
+    <servlet-class>library.lgq.servlet.UpdateBorrowbookCount</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateBookMargin</servlet-name>
+    <servlet-class>library.lgq.servlet.UpdateBookMargin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateUser_bookInfo</servlet-name>
+    <servlet-class>library.lgq.servlet.UpdateUser_bookInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuerySeatInfo</servlet-name>
+    <servlet-class>library.lgq.servlet.QuerySeatInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuerybookInfo</servlet-name>
+    <servlet-class>library.lgq.servlet.QuerybookInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UnsubscribeSeat</servlet-name>
+    <servlet-class>library.lgq.servlet.UnsubscribeSeat</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReturnBook</servlet-name>
+    <servlet-class>library.lgq.servlet.ReturnBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExtraBook</servlet-name>
+    <servlet-class>library.lgq.servlet.ExtraBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatecanBookWhilereturn</servlet-name>
+    <servlet-class>library.lgq.servlet.UpdatecanBookWhilereturn</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatebookMarginWhilereturn</servlet-name>
+    <servlet-class>library.lgq.servlet.UpdatebookMarginWhilereturn</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllSeatInfo</servlet-name>
+    <url-pattern>/AllSeatInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookSeat</servlet-name>
+    <url-pattern>/BookSeat</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookSeatUpdateuser</servlet-name>
+    <url-pattern>/BookSeatUpdateuser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IsBookSeat</servlet-name>
+    <url-pattern>/IsBookSeat</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUserBookseatState</servlet-name>
+    <url-pattern>/UpdateUserBookseatState</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SeatInfoByCondition</servlet-name>
+    <url-pattern>/SeatInfoByCondition</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserinfo</servlet-name>
+    <url-pattern>/GetUserinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Updateanthor_name</servlet-name>
+    <url-pattern>/Updateanthor_name</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateAddress</servlet-name>
+    <url-pattern>/UpdateAddress</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateSignature</servlet-name>
+    <url-pattern>/UpdateSignature</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateSex</servlet-name>
+    <url-pattern>/UpdateSex</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllBookInfo</servlet-name>
+    <url-pattern>/AllBookInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IsCanborrow</servlet-name>
+    <url-pattern>/IsCanborrow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateBorrowbookCount</servlet-name>
+    <url-pattern>/UpdateBorrowbookCount</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateBookMargin</servlet-name>
+    <url-pattern>/UpdateBookMargin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUser_bookInfo</servlet-name>
+    <url-pattern>/UpdateUser_bookInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuerySeatInfo</servlet-name>
+    <url-pattern>/QuerySeatInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuerybookInfo</servlet-name>
+    <url-pattern>/QuerybookInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UnsubscribeSeat</servlet-name>
+    <url-pattern>/UnsubscribeSeat</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReturnBook</servlet-name>
+    <url-pattern>/ReturnBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExtraBook</servlet-name>
+    <url-pattern>/ExtraBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatecanBookWhilereturn</servlet-name>
+    <url-pattern>/UpdatecanBookWhilereturn</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatebookMarginWhilereturn</servlet-name>
+    <url-pattern>/UpdatebookMarginWhilereturn</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

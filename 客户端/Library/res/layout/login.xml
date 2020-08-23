@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/img_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:src="@drawable/logo_library" />
+
+    <EditText
+        android:id="@+id/edit_username"
+        android:layout_width="fill_parent"
+        android:layout_height="36dip"
+        android:layout_marginRight="50dip"
+        android:layout_marginLeft="50dip"
+        android:layout_below="@+id/img_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:background="@drawable/bg_edittext"
+        android:drawableLeft="@drawable/as_profile" >
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edit_pwd"
+        android:layout_width="fill_parent"
+        android:layout_height="36dip"
+        android:layout_marginRight="50dip"
+        android:layout_marginLeft="50dip"
+        android:layout_below="@+id/edit_username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:background="@drawable/bg_edittext"
+        android:drawableLeft="@drawable/as_privacy" />
+
+    <CheckBox
+        android:id="@+id/cb_autoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cb_remPwd"
+        android:layout_alignBottom="@+id/cb_remPwd"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/cb_remPwd"
+        android:text="@string/autoLogin"
+        android:textColor="@color/blue"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/but_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dip"
+        android:layout_below="@+id/cb_autoLogin"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login" 
+        android:background="@drawable/btn1_style_green"/>
+
+    <CheckBox
+        android:id="@+id/cb_remPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/but_login"
+        android:layout_below="@+id/edit_pwd"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/remeberPwd"
+        android:textColor="@color/blue"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_href"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:text="@string/smart_agriculture_href"
+        android:textColor="@color/blue" />
+
+</RelativeLayout>
